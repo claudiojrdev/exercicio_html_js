@@ -8,8 +8,28 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#container{
+    padding: 30px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 3px 3px 5px rgba(63, 63, 63,0.5);
+}
+
+#container h1{
+    text-align: center;
+}
+
 #form {
-    margin: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +39,8 @@ body{
 input, button {
     margin-top: 12px;
     padding: 8px;
-    width: 300px;
+    width: 100%;
+
 }
 
 #enviar{
